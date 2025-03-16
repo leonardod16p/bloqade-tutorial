@@ -7,6 +7,8 @@ Quantum mechanics is a mathematical framework. For our purposes, we will be deal
 
 We need to perform computations. As in classical computing, we want to control the input and how this input is transformed. This process must be **reproducible**. But can we achieve that in a realistic system? In fact, this is a hard problem. According to the No-Cloning Theorem, most states do not have a preparation procedure. Only a few can be prepared using a repeatable method. 
 
+### Necessity of Locality: writing real Hamiltonians
+
 # Condensed Matter
 
 Condensed Matter is a field of physics that deals with the macroscopic and microscopic physical properties of matter, especially the solid and liquid phases, which arise from electromagnetic forces between atoms and electrons. More generally, the subject deals with condensed phases of matter: systems composed of many constituents with strong interactions among them.
