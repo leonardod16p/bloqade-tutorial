@@ -29,7 +29,7 @@ Quantum transitions occur at zero Kelvin and are induced by changes in some non-
 
 # Adiabatic Theorem
 
-
+A physical system remains in its intantaneous eigenstate if a given pertubation is acting on it slowly enough and if there is a gap between the eigenvalue and the rest of the Hamiltonian spectrum. So, according to this theorem, a quantum system that begins in the nondegenrate ground state of a time-dependent Hamiltonian will reamin in the instantaneous ground state if the hamiltonian changes sufficiently slowly.
 
 
 # Topological Order
