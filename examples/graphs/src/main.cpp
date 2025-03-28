@@ -63,7 +63,14 @@ void loopEdgeDefinition(edge){
 or parallel edges
 */
 
+
+//recebo um grafo e digo quais endpoints possuem multiple edges
+
 void parallelEdgesDefinition(){
+
+    //entro num vertice
+    
+
 }
 
 
@@ -73,7 +80,10 @@ void parallelEdgesDefinition(){
 by a single edge.
 */
 
-void pedantVertexDefinition(){
+void pedantVertexDefinition(const string& vertex1){
+    if (adjacency_list[vertex1].size() == 1 && adjacency_list[vertex1][0] != adjacency_list[vertex1][1]){
+        cout << "It is a pendant vertex" << endl;
+    }
 }
 
 /*
@@ -82,7 +92,20 @@ with n ≥ 0. If v1 = v_n+1 then the walk is closed. The length of the walk is t
 edges in the walk. A walk of length zero is a trivial walk
 */
 
-void walkDefinition(){
+
+//Recebe vetor de strings alternada de vertices e arestas
+//Diz se o passeio eh fechado
+//Diz o tamanho do passeio
+void walkDefinition(vector<string> walk){
+
+    if (walk[0] == walk.back()){cout << "Walk is closed." << endl};
+    
+    cout << "The length of the is: " << (walk.size() - 1)/2 << endl;
+
+    //printa o grafo e o passeio destacado
+
+    
+
 }
 
 int main() {
